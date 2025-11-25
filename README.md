@@ -1,47 +1,48 @@
-##📌 Project Overview
+# 📌 Project Overview
 
 This project focuses on collecting and analyzing product data from two major e-commerce platforms: Jumia and Noon.
 The goal is to extract product information, clean and prepare the data, visualize price trends, and support further analysis or machine learning tasks.
 
-The project was completed as a team assignment, where each member had a specific role.
+This work was completed as a team assignment, and each member contributed to a specific part of the pipeline.
 
 👩‍💻 My Role in the Project
 
 I worked as part of the data team, and my main responsibility was the Web Scraping module.
 
-My contributions include:
+🔹 My Contributions
+✔ 1. Web Scraping (Main Role)
 
-✔ Web Scraping
+Implemented scraping scripts for Jumia and Noon.
 
-Implemented the scraping scripts for Jumia and Noon.
+Extracted key product features (price, name, brand, rating, discount, category).
 
-Extracted key product features such as price, name, rating, discount, brand, and category.
+Used Requests, BeautifulSoup, and Selenium for dynamic pages.
 
-Used tools such as Requests, BeautifulSoup, and Selenium when dynamic pages were needed.
+Wrote clean, reusable, and modular scraping code.
 
-Wrote modular, reusable, and well-structured scraping code.
+✔ 2. Data Cleaning (Additional Capability)
 
-✔ Data Cleaning (Additional Capability)
+Although my official role was scraping, I also handled cleaning tasks:
 
-Although my assigned role was web scraping, I also have the ability to:
+Cleaned raw data using Pandas & Regex
 
-Clean raw data using Pandas and Regular Expressions
+Fixed missing values
 
-Handle missing values
+Normalized inconsistent formats
 
-Normalize inconsistent fields
+Converted raw scraped data into clean, structured DataFrames
 
-Convert raw scraped data into a clean and usable DataFrame
+✔ 3. Data Visualization (Additional Capability)
 
-✔ Data Visualization (Additional Capability)
+I also contributed to creating visual insights:
 
-I also contributed to visualization tasks, including:
+Price distribution charts
 
-Creating charts that show price distribution
+Category and discount comparisons
 
-Visualizing discounts and category comparisons
+Visualization using Matplotlib / Seaborn
 
-Using Matplotlib / Seaborn to highlight key insights
+Highlighted important trends in the dataset
 
 🛠 Technologies Used
 
@@ -57,23 +58,22 @@ Matplotlib / Seaborn
 
 Jupyter Notebook
 
-
 📊 Example Results
 
 Extracted product data from multiple categories
 
 Cleaned and structured datasets
 
-Visualized pricing variations between Jumia and Noon
+Visualized price variations between Jumia and Noon
 
-Prepared data for model building and further analysis
+Prepared the dataset for ML and advanced analysis
 
 ⭐ Future Improvements
 
-Add automated scheduling for scraping
+Automating scraping with scheduling tools
 
-Expand scraping to more e-commerce websites
+Expanding to more e-commerce platforms
 
-Build a pricing prediction model
+Adding machine learning price prediction
 
-Add a Streamlit or Flask dashboard
+Building a dashboard using Streamlit or Flask
