@@ -1,4 +1,4 @@
-📌 Project Overview
+##📌 Project Overview
 
 This project focuses on collecting and analyzing product data from two major e-commerce platforms: Jumia and Noon.
 The goal is to extract product information, clean and prepare the data, visualize price trends, and support further analysis or machine learning tasks.
